@@ -12,6 +12,6 @@ dependencyResolutionManagement {
     mavenCentral()
   }
 }
-rootProject.name = "newApp"
+rootProject.name = "lib"
 include ':app'
 include ':lib_img'
