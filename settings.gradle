@@ -3,15 +3,26 @@ pluginManagement {
     gradlePluginPortal()
     google()
     mavenCentral()
+//    maven { url 'https://jitpack.io' }
+//    maven { url 'https://maven.aliyun.com/repository/public' } //jcenter
+//    maven { url 'https://maven.aliyun.com/repository/central' } //central
+//    maven { url 'https://maven.aliyun.com/repository/google' } //google
+//    maven { url 'https://jitpack.io' }
   }
 }
-dependencyResolutionManagement {
-  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-  repositories {
-    google()
-    mavenCentral()
-  }
-}
+//dependencyResolutionManagement {
+//  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+////  repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+//  repositories {
+//    google()
+//    mavenCentral()
+////    maven { url 'https://jitpack.io' }
+//    maven { url 'https://maven.aliyun.com/repository/public' } //jcenter
+//    maven { url 'https://maven.aliyun.com/repository/central' } //central
+//    maven { url 'https://maven.aliyun.com/repository/google' } //google
+//    maven { url 'https://jitpack.io' }
+//  }
+//}
 rootProject.name = "lib"
 include ':app'
 include ':lib_img'

@@ -5,6 +5,17 @@ plugins {
   id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
 }
 
+allprojects {
+  repositories {
+//    maven { url 'https://maven.aliyun.com/repository/public' } //jcenter
+//    maven { url 'https://maven.aliyun.com/repository/central' } //central
+//    maven { url 'https://maven.aliyun.com/repository/google' } //google
+//    maven { url 'https://jitpack.io' }
+    google()
+    mavenCentral()
+  }
+}
+//apply from: 'lib_img/maven_push.gradle'
 task clean(type: Delete) {
   delete rootProject.buildDir
 }
