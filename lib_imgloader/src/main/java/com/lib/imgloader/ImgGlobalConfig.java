@@ -1,4 +1,4 @@
-package com.lib.img;
+package com.lib.imgloader;
 
 import java.io.File;
 

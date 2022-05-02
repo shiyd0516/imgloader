@@ -25,4 +25,4 @@ pluginManagement {
 //}
 rootProject.name = "lib"
 include ':app'
-include ':lib_img'
+include ':lib_imgloader'

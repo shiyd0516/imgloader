@@ -1,4 +1,4 @@
-package com.lib.img;
+package com.lib.imgloader;
 
 import androidx.annotation.IntDef;
 import androidx.annotation.NonNull;
