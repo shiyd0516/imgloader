@@ -1,12 +1,11 @@
 package com.syd.newapp
 
 import android.os.Bundle
-import android.provider.ContactsContract.CommonDataKinds.Im
 import android.widget.Button
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import com.lib.img.ImgLoader
-import com.lib.img.ImgOption
+import com.lib.imgloader.ImgLoader
+import com.lib.imgloader.ImgOption
 
 class ImgActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {

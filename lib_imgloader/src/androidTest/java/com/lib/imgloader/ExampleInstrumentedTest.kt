@@ -1,4 +1,4 @@
-package com.lib.img
+package com.lib.imgloader
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,8 +1,8 @@
 package com.syd.newapp
 
 import android.app.Application
-import com.lib.img.ImgGlobalConfig
-import com.lib.img.ImgOption
+import com.lib.imgloader.ImgGlobalConfig
+import com.lib.imgloader.ImgOption
 import java.io.File
 
 class MyApplication : Application() {
