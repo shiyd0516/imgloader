@@ -12,14 +12,14 @@ import java.io.File;
 
 public class ImgAppGlideModule extends AppGlideModule {
 
-  private static ImgGlobalConfig imgGlobalOption;
+  private static ImgOptionGlobal imgGlobalOption;
   private DiskCache diskCache;//硬盘缓存目录.
 
-  public static ImgGlobalConfig getImgGlobalOption() {
+  public static ImgOptionGlobal getImgGlobalOption() {
     return imgGlobalOption;
   }
 
-  public static void setImgGlobalOption(ImgGlobalConfig imgGlobalOption) {
+  public static void setImgGlobalOption(ImgOptionGlobal imgGlobalOption) {
     ImgAppGlideModule.imgGlobalOption = imgGlobalOption;
   }
 

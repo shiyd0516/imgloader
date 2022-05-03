@@ -15,7 +15,7 @@ ext["ossrhPassword"] = properties.getProperty('maven.password')
 
 def GROUP_ID = 'io.github.shiyd0516.lib'
 def ARTIFACT_ID = 'imgloader'
-def VERSION_NAME = '1.0.0'
+def VERSION_NAME = '1.0.1'
 //指定快照版本 maven仓库url
 def SNAPSHOTS_REPO_URL = 'https://s01.oss.sonatype.org/content/repositories/snapshots/'
 //指定正式版本 maven仓库url
