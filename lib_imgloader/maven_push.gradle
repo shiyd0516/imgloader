@@ -49,7 +49,7 @@ afterEvaluate {
           name = ARTIFACT_ID
           description = 'Android图片加载库'
           // If your project has a dedicated site, use its URL here
-          url = 'https://github.com/shiyd0516/baselib'
+          url = 'https://github.com/shiyd0516/imgloader'
           licenses {
             license {
               //协议类型，一般默认Apache License2.0的话不用改：
@@ -67,10 +67,10 @@ afterEvaluate {
           // Version control info, if you're using GitHub, follow the format as seen here
           scm {
             //修改成你的Git地址：
-            connection = 'scm:git@github.com:shiyd0516/baselib.git'
-            developerConnection = 'scm:git@github.com:shiyd0516/baselib.git'
+            connection = 'scm:git@github.com:shiyd0516/imgloader.git'
+            developerConnection = 'scm:git@github.com:shiyd0516/imgloader.git'
             //分支地址：
-            url = 'https://github.com/shiyd0516/baselib/tree/master'
+            url = 'https://github.com/shiyd0516/imgloader/tree/master'
           }
           // A slightly hacky fix so that your POM will include any transitive dependencies
           // that your library builds upon
