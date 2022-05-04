@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
 
@@ -8,15 +9,62 @@
     android:id="@+id/iv_img"
     android:layout_width="200dp"
     android:layout_height="200dp"
+    android:contentDescription="@null"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
-  <Button
-    android:layout_width="250dp"
+    app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+  <com.google.android.material.button.MaterialButton
     android:id="@+id/btn"
-    app:layout_constraintTop_toTopOf="parent"
+    android:layout_width="0dp"
+    android:layout_height="48dp"
+    android:backgroundTint="#2196F3"
+    android:insetLeft="0dp"
+    android:insetTop="0dp"
+    android:insetRight="0dp"
+    android:insetBottom="0dp"
+    android:text="没有使用单独配置"
+    android:textColor="#FFFFFF"
+    android:textSize="13sp"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    android:layout_height="50dp"/>
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="HardcodedText" />
+
+  <com.google.android.material.button.MaterialButton
+    android:id="@+id/btn2"
+    android:layout_width="0dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="16dp"
+    android:backgroundTint="#4CAF50"
+    android:insetLeft="0dp"
+    android:insetTop="0dp"
+    android:insetRight="0dp"
+    android:insetBottom="0dp"
+    android:text="使用单独配置"
+    android:textColor="#FFFFFF"
+    android:textSize="13sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/btn"
+    tools:ignore="HardcodedText" />
+
+  <com.google.android.material.button.MaterialButton
+    android:id="@+id/btn3"
+    android:layout_width="0dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="16dp"
+    android:backgroundTint="#FFC107"
+    android:insetLeft="0dp"
+    android:insetTop="0dp"
+    android:insetRight="0dp"
+    android:insetBottom="0dp"
+    android:text="清空缓存"
+    android:textColor="#FFFFFF"
+    android:textSize="13sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/btn2"
+    tools:ignore="HardcodedText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
