@@ -23,6 +23,6 @@ pluginManagement {
 //    maven { url 'https://jitpack.io' }
 //  }
 //}
-rootProject.name = "lib"
+rootProject.name = "imgloader"
 include ':app'
 include ':lib_imgloader'
